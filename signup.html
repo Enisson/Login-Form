@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Login Form</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <title>sign up</title>
 </head>
 <body>
     <main class="container">
         <section class="welcome">
             <h1>Welcome</h1>
-            <p>Log in to your account to coninue <br> or Sign up for free</p>
+            <p>Do you have an account?<br>Log in to your account to coninue </p>
             
-            <button class="sign-up__btn"><a href="signup.html">sign up</a></button>
+            <button class="sign-up__btn"><a href="index.html">sign in</a></button>
         </section>
 
         <section class="form">
@@ -23,7 +23,7 @@
 
             <span class="help">Need help?</span>
 
-            <h2>Login</h2>
+            <h2>Sign up</h2>
 
             <form action="index.html">
                 <div class="input-field__login">
@@ -31,24 +31,30 @@
                     <label for="username">Login</label>
                     <input class="js-btn" type="text" name="username" id="username" placeholder="Enter Your Username">
                     <div class="underline"></div>
-                 </div>
+                </div>
 
-                 <div class="input-field__pass">
-                     <i><img src="img/icon/pass.png"></i>
-                     <label for="password">Password</label>
+                <div class="input-field__login">
+                    <i><img src="img/icon/email.png" ></i>
+                    <label for="username">email</label>
+                    <input class="js-btn" type="email" name="email" id="email" placeholder="Enter Your email">
+                    <div class="underline"></div>
+                </div>
+
+                <div class="input-field__pass">
+                    <i><img src="img/icon/pass.png"></i>
+                    <label for="password">Password</label>
                     <input class="js-btn" type="password" name="password" id="password" placeholder="Enter Your Password">
                     <div class="underline"></div>
-                 </div>
+                </div>
 
+                <div class="input-field__pass">
+                    <i><img src="img/icon/pass.png"></i>
+                    <label for="password">Confirm Password</label>
+                    <input class="js-btn" type="password" name="password" id="password" placeholder="Confirmr Your Password">
+                    <div class="underline"></div>
+                </div>
 
-                 <div class="checkbox">
-                     <input type="checkbox" name="remember" id="remember" >
-                     <label for="remember">remember</label>
-
-                     <a href="#">Forgot your password?</a>
-                    </div>
-
-                 <input type="submit" value="sign in">
+                 <input type="submit" value="sign up">
 
                  <span class="line">or</span>
 
