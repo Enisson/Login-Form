@@ -369,3 +369,28 @@ input[type]{
         width: 40%;
     }
 }
+
+@media (max-width: 800px) {
+    .content {
+        width: 500px;
+    }
+}
+
+@media (max-width: 530px) {
+    .first-content .first-column,
+    .second-content .first-column {
+        display: none;
+    }
+
+    .content {
+        width: 350px;
+    }
+
+    .content::before {
+        background-image: none;
+    }
+
+    .second-column {
+        flex: 1 0 auto;
+    }
+}
