@@ -3,7 +3,7 @@
 
   <h2> Um formulário de login responsivo feito com HTML, CSS e JavaScript.</h2>
 
-  ![login](https://user-images.githubusercontent.com/70671093/141647285-f542d62a-5aca-47ec-8088-09c4ea900377.jpg)
+  ![login](https://user-images.githubusercontent.com/70671093/160012056-2776e2ee-3c99-4085-a04d-2556b42077f2.gif)
 
   <p>Criado evento em javascript para quando o usuário clicar no botão sign in e/ou sign up o layout sofrer uma transição, alternando entre tela de login e cadastro.</p>
 
